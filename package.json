@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Amazon-like storefront with MySQL",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atk1213/Bamazon.git"
+  },
+  "author": "Anthony Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atk1213/Bamazon/issues"
+  },
+  "homepage": "https://github.com/atk1213/Bamazon#readme"
+}
