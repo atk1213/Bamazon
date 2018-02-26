@@ -69,7 +69,6 @@ function viewProducts() {
 };
 function lowInventory() {
     connection.query("SELECT * FROM products WHERE stock_quantity < 5", function (error, results) {
-        // check functionality after creating add inventory or add stock function
         if (error) throw error;
         if (results.length < 1) {
             console.log("Currently, there are at least 5 of each item in stock.")
